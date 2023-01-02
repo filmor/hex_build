@@ -1,0 +1,18 @@
+[package]
+name = "hex_build"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4"
+erl_tokenize = "0.5"
+reqwest = "0.11"
+toml = "0.5"
+tar = "0.4"
+prost = "0.11"
+sha2 = "0.10"
+thiserror = "1"
+flate2 = "1"
+
+[build-dependencies]
+prost-build = "0.11"
